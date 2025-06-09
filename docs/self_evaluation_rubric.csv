@@ -1,0 +1,16 @@
+Test Case,Criterion,Description,Max Score,Self-Score,Notes
+Basic Functionality Test,Graph Modeling,Correctly models intersections and roads,10,9,Successfully models intersections and roads with appropriate attributes
+Basic Functionality Test,Pathfinding,Computes valid shortest paths,10,9,Dijkstra's algorithm correctly finds optimal paths
+Basic Functionality Test,Traffic Light Timing,Generates reasonable default timings,10,8,Default timings are consistent and reasonable
+Basic Functionality Test,Visualization,Correctly displays the network in 2D,10,8,Clear 2D visualization with proper scaling
+Basic Functionality Test,API Functionality,All required endpoints work correctly,10,10,All endpoints implemented and functioning correctly
+Dynamic Traffic & Rerouting Test,Incident Handling,Correctly applies incident to the network,10,9,Incidents properly affect travel times
+Dynamic Traffic & Rerouting Test,Rerouting,Successfully finds alternative routes,10,8,Routes are recalculated to avoid incidents when possible
+Dynamic Traffic & Rerouting Test,Adaptive Timing,Traffic lights adjust to the incident,10,8,Traffic light timings adapt based on incident locations
+Dynamic Traffic & Rerouting Test,Visualization,Clearly shows the incident and rerouting,10,7,Incidents and alternative routes are visible
+Dynamic Traffic & Rerouting Test,Performance,System responds quickly to the incident,10,9,Fast response time for rerouting calculations
+Complexity & Optimization Test,Scale Handling,System handles larger network efficiently,10,8,Efficiently processes larger networks
+Complexity & Optimization Test,Multiple Incidents,Correctly manages multiple incidents,10,8,Handles multiple incidents with appropriate prioritization
+Complexity & Optimization Test,Vehicle Coordination,Vehicles follow optimal paths,10,7,Vehicles generally follow optimal paths with some room for improvement
+Complexity & Optimization Test,Signal Coordination,Traffic lights work together effectively,10,7,Traffic lights coordinate but could be more sophisticated
+Complexity & Optimization Test,System Performance,System remains responsive under load,10,8,Good performance with larger networks and more vehicles
